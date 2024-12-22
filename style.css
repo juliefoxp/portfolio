@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.lodret_tekst {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  color: rgba(33, 87, 28, 1);
+}
