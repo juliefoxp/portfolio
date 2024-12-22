@@ -7,18 +7,26 @@
   writing-mode: vertical-lr;
   text-orientation: upright;
   color: rgba(33, 87, 28, 1);
-  font-size: 1rem;
 }
 .vandret_tekst {
   letter-spacing: 10px; /*Mellemrum mellem bogstaverne*/
   margin: 10px;
-  font-size: 1.2rem;
 }
 .grid_1-1 {
   display: grid;
   grid-template-columns: auto 1fr;
 }
+.grid_1-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
 .img_1 {
   max-width: 80%; /*billedet vil aldrig være bredere end dens container*/
   height: auto;
+}
+button {
+  border-color: rgba(33, 87, 28, 1);
+  border-radius: 50px;
+  background-color: transparent;
 }

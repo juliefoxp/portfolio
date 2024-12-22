@@ -14,7 +14,11 @@ body {
 
 h1 {
   font-family: "Yeseva One";
-  font-weight: 400;
+  font-style: normal;
+  color: rgba(33, 87, 28, 1);
+}
+button {
+  font-family: "Yeseva One";
   font-style: normal;
   color: rgba(33, 87, 28, 1);
 }
