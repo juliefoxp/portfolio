@@ -7,10 +7,12 @@
   writing-mode: vertical-lr;
   text-orientation: upright;
   color: rgba(33, 87, 28, 1);
+  padding: 10px;
 }
 .vandret_tekst {
   letter-spacing: 10px; /*Mellemrum mellem bogstaverne*/
   margin: 10px;
+  padding: 8px;
 }
 .grid_1-1 {
   display: grid;
@@ -21,9 +23,13 @@
   grid-template-columns: 1fr 1fr;
   font-size: 11px;
 }
+.col {
+  padding: 9px;
+}
 .img_1 {
   max-width: 80%; /*billedet vil aldrig være bredere end dens container*/
   height: auto;
+  margin: 15px;
 }
 button {
   border-color: rgba(33, 87, 28, 1);
@@ -31,4 +37,10 @@ button {
   background-color: transparent;
   width: 155px;
   height: 50px;
+  margin-left: 60px;
+  cursor: pointer;
+}
+button:hover {
+  color: white;
+  background-color: rgba(33, 87, 28, 1);
 }
