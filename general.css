@@ -16,9 +16,21 @@ h1 {
   font-family: "Yeseva One";
   font-style: normal;
   color: rgba(33, 87, 28, 1);
+  font-size: 6.5vw; /*Fontstørrelsen ændres afhængigt af viewport-bredden */
+}
+h2 {
+  font-family: kalnia;
+  font-weight: 400;
 }
 button {
   font-family: "Yeseva One";
   font-style: normal;
   color: rgba(33, 87, 28, 1);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid black;
 }

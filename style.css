@@ -19,7 +19,7 @@
 .grid_1-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  font-size: 11px;
 }
 .img_1 {
   max-width: 80%; /*billedet vil aldrig være bredere end dens container*/
@@ -29,4 +29,6 @@ button {
   border-color: rgba(33, 87, 28, 1);
   border-radius: 50px;
   background-color: transparent;
+  width: 155px;
+  height: 50px;
 }
