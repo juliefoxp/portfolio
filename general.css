@@ -20,7 +20,11 @@ h1 {
 }
 h2 {
   font-family: kalnia;
-  font-weight: 400;
+  font-weight: 500;
+}
+h3 {
+  font-family: kalnia;
+  font-weight: 300;
 }
 button {
   font-family: "Yeseva One";

@@ -23,9 +23,11 @@
   grid-template-columns: 1fr 1fr;
   font-size: 11px;
 }
+
 .col {
   padding: 9px;
 }
+
 .img_1 {
   max-width: 80%; /*billedet vil aldrig være bredere end dens container*/
   height: auto;
@@ -43,4 +45,67 @@ button {
 button:hover {
   color: white;
   background-color: rgba(33, 87, 28, 1);
+}
+.portræt img {
+  width: 100%; /* Gør billedet responsivt og tilpasser min divs bredde */
+  height: 100%; /* Tvinger billedet til at fylde hele højden af min div */
+  object-fit: cover; /* Fylder containeren og beskærer billedet hvis det er nødvendigt */
+  padding: 20px;
+  border-radius: 50px;
+}
+/********************* CV *************************/
+.cv {
+  background-color: rgb(157, 175, 157);
+  padding: 20px;
+  margin: 30px;
+  border-radius: 50px;
+}
+section {
+  margin-bottom: 20px;
+}
+ul {
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+.info ul li {
+  font-size: 18px;
+}
+
+.info {
+  background-color: #e0e4da;
+  padding: 10px;
+  border-radius: 5px;
+}
+.uddannelse ul li {
+  font-size: 18px;
+}
+
+.uddannelse {
+  background-color: #e0e4da;
+  padding: 10px;
+  border-radius: 5px;
+}
+.erfaring ul li {
+  font-size: 18px;
+}
+
+.erfaring {
+  background-color: #e0e4da;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.færdigheder ul li {
+  font-size: 18px;
+}
+.færdigheder {
+  background-color: #e0e4da;
+  padding: 10px;
+  border-radius: 5px;
+}
+ul li {
+  padding-left: 5px;
 }
