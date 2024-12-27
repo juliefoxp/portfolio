@@ -53,6 +53,13 @@ button:hover {
   padding: 20px;
   border-radius: 50px;
 }
+.kort_om_mig {
+  margin: 30px;
+}
+.h1_om_mig {
+  text-align: center;
+  margin: 20px;
+}
 /********************* CV *************************/
 .cv {
   background-color: rgb(157, 175, 157);
