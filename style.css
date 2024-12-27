@@ -23,6 +23,10 @@
   grid-template-columns: 1fr 1fr;
   font-size: 11px;
 }
+.grid_1-1-1-1 {
+  padding: 20px;
+  margin: 20px;
+}
 
 .col {
   padding: 10px;
