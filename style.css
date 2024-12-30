@@ -28,6 +28,7 @@ main {
   grid-template-columns: 1fr 1fr;
   font-size: 11px;
 }
+/*PROJEKTER SIDE*/
 .grid_1-1-1-1 {
   padding: 20px;
   margin: 20px;
@@ -41,6 +42,14 @@ main {
   padding: 20px;
   margin: 20px;
 }
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: rgba(33, 87, 28, 1);
+  text-decoration: underline;
+}
+/*PROJEKTER SIDE SLUT*/
 
 .col {
   padding: 10px;

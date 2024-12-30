@@ -72,7 +72,7 @@ nav {
 .menu a {
   display: block;
   padding: 10px;
-  color: green;
+  color: rgba(33, 87, 28, 1);
   text-decoration: none;
   transition: color 0.3s;
   text-align: end;
@@ -99,6 +99,7 @@ nav {
 .burger {
   display: none;
 }
+
 @media screen and (max-width: 1215px) {
   .menu {
     display: none;
