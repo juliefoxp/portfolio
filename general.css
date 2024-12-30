@@ -6,6 +6,10 @@
 body {
   background-color: rgba(222, 219, 215, 1);
 }
+footer {
+  margin-top: 150px;
+  text-align: center;
+}
 .yeseva-one-regular {
   font-family: "Yeseva One", serif;
   font-weight: 400;
