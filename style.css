@@ -87,7 +87,7 @@ button:hover {
   text-align: center;
   margin: 20px;
 }
-/*******************WEB SIDE*************************/
+/*******************TEMA SIDER*************************/
 .grid_1-3 {
   margin: 30px;
   padding: 30px;
@@ -114,8 +114,13 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .grid_1-3 .col img {
+    width: 500px; /* Juster efter behov */
+    height: 300px;
+    object-fit: cover;
+  }
 }
-/*********************WEB SIDE SLUT*****************/
+/*********************TEMA SIDER SLUT*****************/
 
 /*********************UX/UI SIDE*****************/
 
