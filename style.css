@@ -54,6 +54,10 @@ a:hover {
 .col {
   padding: 10px;
 }
+.portræt {
+  width: 100%;
+  height: auto;
+}
 
 .img_1 {
   max-width: 80%; /*billedet vil aldrig være bredere end dens container*/
@@ -118,6 +122,16 @@ button:hover {
     width: 500px; /* Juster efter behov */
     height: 300px;
     object-fit: cover;
+  }
+  .portræt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .portræt img {
+    width: 85%;
+    margin-left: 50px;
   }
 }
 /*********************TEMA SIDER SLUT*****************/

@@ -20,7 +20,6 @@ h1 {
   font-family: "Yeseva One";
   font-style: normal;
   color: rgba(33, 87, 28, 1);
-  font-size: 6.5vw; /*Fontstørrelsen ændres afhængigt af viewport-bredden */
 }
 h2 {
   font-family: kalnia;
@@ -35,6 +34,12 @@ button {
   font-style: normal;
   color: rgba(33, 87, 28, 1);
 }
+.col {
+  justify-content: center;
+  align-items: center;
+}
+/*****************MENU & BURGERMENU***********/
+
 header .logo img {
   width: 50px;
   height: auto;
@@ -100,7 +105,7 @@ nav {
   display: none;
 }
 
-@media screen and (max-width: 1215px) {
+@media screen and (max-width: 1000px) {
   .menu {
     display: none;
   }
@@ -141,3 +146,4 @@ nav {
     font-size: 24px;
   }
 }
+/*****************MENU & BURGERMENU SLUT***********/
