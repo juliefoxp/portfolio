@@ -26,11 +26,12 @@ main {
   grid-template-columns: auto 1fr;
 }
 
-.grid_1-2 {
+.grid_1-1-1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   font-size: 11px;
 }
+
 /*PROJEKTER SIDE*/
 .grid_1-1-1-1 {
   padding: 20px;
@@ -73,12 +74,17 @@ button {
   background-color: transparent;
   width: 155px;
   height: 50px;
-  margin-left: 60px;
   cursor: pointer;
+  margin-left: 300px;
+  margin-bottom: 15px;
+  transform: translateY(-60px); /*Skubber button op */
 }
 button:hover {
   color: white;
   background-color: rgba(33, 87, 28, 1);
+}
+.tekst_forside {
+  transform: translateX(15px); /*Skubber teksten til side */
 }
 .portræt img {
   width: 100%; /* Gør billedet responsivt og tilpasser min divs bredde */
@@ -94,18 +100,26 @@ button:hover {
   text-align: center;
   margin: 20px;
 }
+.intro_forside {
+  text-align: center;
+  margin: 20px;
+  border: solid rgba(33, 87, 28, 1);
+  border-radius: 50px;
+  font-size: 13px;
+  padding: 20px;
+}
 
 /********************FORSIDE********************/
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   .grid_1-1 {
     display: grid;
     grid-template-columns: auto 1fr;
     margin: 20px;
   }
-  .grid_1-2 {
+  .grid_1-1-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 35px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 300px;
     font-size: 15px;
   }
   .lodret_tekst {
@@ -123,12 +137,20 @@ button:hover {
     height: auto; /* Bevarer billedets oprindelige proportioner */
   }
   button {
-    width: 450px; /* Fast bredde */
-    height: 100px; /* Fast højde */
-    font-size: 20px; /* Øg tekststørrelsen */
-    padding: 10px; /* Juster padding for at sikre godt indhold */
+    width: 250px;
+    height: 100px;
+    font-size: 15px;
+    padding: 10px;
     font-size: 30px;
     transform: translateY(-400px); /*Skubber button op */
+    margin-left: 30px;
+  }
+  .tekst_forside {
+    transform: translateX(-250px); /*Skubber teksten til side */
+  }
+  .intro_forside {
+    width: 70%;
+    margin-left: 250px;
   }
 }
 /*******************TEMA SIDER*************************/
@@ -154,7 +176,7 @@ button:hover {
   margin-bottom: 50px;
   color: rgba(33, 87, 28, 1);
 }
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   .grid_1-3 .col {
     display: grid;
     grid-template-columns: 1fr 1fr;
