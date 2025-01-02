@@ -39,6 +39,12 @@ button {
   justify-content: center;
   align-items: center;
 }
+.col_1 img {
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: auto;
+}
 /*****************MENU & BURGERMENU***********/
 
 header .logo img {
