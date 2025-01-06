@@ -51,12 +51,9 @@ a {
   text-decoration: none;
   color: rgba(33, 87, 28, 1);
 }
-/*
-a:hover {
-  color: rgba(33, 87, 28, 1);
+.link a:hover {
   text-decoration: underline;
 }
-  /*
 /*PROJEKTER SIDE SLUT*/
 
 .col {
