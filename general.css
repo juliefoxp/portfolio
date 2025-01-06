@@ -30,7 +30,8 @@ h3 {
   font-family: kalnia;
   font-weight: 300;
 }
-button {
+.buttom_1 a,
+.buttom_2 a {
   font-family: "Yeseva One";
   font-style: normal;
   color: rgba(33, 87, 28, 1);
@@ -112,7 +113,7 @@ nav {
   display: none;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1100px) {
   .menu {
     display: none;
   }
