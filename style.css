@@ -7,6 +7,7 @@ main {
   max-width: 1280px;
   margin: 0 auto;
 }
+/*****FORSIDE - MOBIL******/
 .lodret_tekst {
   writing-mode: vertical-lr;
   text-orientation: upright;
@@ -31,6 +32,7 @@ main {
   grid-template-columns: 1fr;
   font-size: 11px;
 }
+/*****FORSIDE - MOBIL******/
 
 /*PROJEKTER SIDE*/
 .grid_1-1-1-1 {
@@ -69,6 +71,8 @@ a {
   margin-left: 50px;
   margin-top: 20px;
 }
+/*PROJEKTER SIDE SLUT*/
+
 /*CV*/
 .cv {
   background-color: rgb(157, 175, 157);
@@ -125,8 +129,7 @@ ul li {
 ul li {
   padding-left: 5px;
 }
-/*CV*/
-/*PROJEKTER SIDE SLUT*/
+/***********CV*********/
 
 .col {
   padding: 10px;
@@ -194,7 +197,7 @@ ul li {
   padding: 20px;
 }
 
-/********************FORSIDE********************/
+/********************FORSIDE - DESKTOP********************/
 @media (min-width: 1100px) {
   .grid_1-1 {
     display: grid;
@@ -315,7 +318,7 @@ ul li {
   }
   /*********************TEMA SIDER SLUT*****************/
 
-  /********************* CV *************************/
+  /********************* CV - DESKTOP *************************/
   .cv {
     background-color: rgb(157, 175, 157);
     padding: 20px;
