@@ -69,6 +69,63 @@ a {
   margin-left: 50px;
   margin-top: 20px;
 }
+/*CV*/
+.cv {
+  background-color: rgb(157, 175, 157);
+  padding: 20px;
+  margin: 30px;
+  border-radius: 50px;
+}
+section {
+  margin-bottom: 20px;
+}
+ul {
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+.info ul li {
+  font-size: 18px;
+}
+
+.info {
+  background-color: #e0e4da;
+  padding: 10px;
+  border-radius: 5px;
+}
+.uddannelse ul li {
+  font-size: 18px;
+}
+
+.uddannelse {
+  background-color: #e0e4da;
+  padding: 10px;
+  border-radius: 5px;
+}
+.erfaring ul li {
+  font-size: 18px;
+}
+
+.erfaring {
+  background-color: #e0e4da;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.færdigheder ul li {
+  font-size: 18px;
+}
+.færdigheder {
+  background-color: #e0e4da;
+  padding: 10px;
+  border-radius: 5px;
+}
+ul li {
+  padding-left: 5px;
+}
+/*CV*/
 /*PROJEKTER SIDE SLUT*/
 
 .col {
