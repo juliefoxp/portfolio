@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 main {
-  max-width: 1280;
+  max-width: 1280px;
   margin: 0 auto;
 }
 .lodret_tekst {
@@ -59,6 +59,15 @@ a {
 }
 .link a:hover {
   text-decoration: underline;
+}
+.link {
+  text-align: center;
+  color: rgba(33, 87, 28, 1);
+  border: solid rgba(33, 87, 28, 1);
+  border-radius: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
 }
 /*PROJEKTER SIDE SLUT*/
 
@@ -152,7 +161,7 @@ a {
     padding: 0;
   }
   .img_1 {
-    max-width: 40%; /* Sørger for at billedet ikke overskrider containerens bredde */
+    max-width: 45%; /* Sørger for at billedet ikke overskrider containerens bredde */
     height: auto; /* Bevarer billedets oprindelige proportioner */
   }
 
@@ -164,7 +173,7 @@ a {
     padding: 2px;
     font-size: 30px;
     margin-top: -380px; /*Rykker bottons op*/
-    margin-left: 30px;
+    margin-left: 100px;
   }
   .tekst_forside {
     transform: translateX(-250px); /*Skubber teksten til side */
@@ -194,11 +203,6 @@ a {
 }
 .grid_1-3 h1 {
   margin: 20px;
-}
-.link {
-  text-align: center;
-  margin-bottom: 50px;
-  color: rgba(33, 87, 28, 1);
 }
 
 @media (min-width: 1100px) {
@@ -236,63 +240,73 @@ a {
     width: 80%; /*Størrelsen på computerskærm billedet*/
     height: auto;
   }
-}
-/*********************TEMA SIDER SLUT*****************/
+  .link {
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgba(33, 87, 28, 1);
+    border: solid rgba(33, 87, 28, 1);
+    border-radius: 50px;
+    margin-top: -20px;
+    margin-right: 350px; /*Gør boksen smallere*/
+    margin-left: 350px; /*Gør boksen smallere*/
+  }
+  /*********************TEMA SIDER SLUT*****************/
 
-/********************* CV *************************/
-.cv {
-  background-color: rgb(157, 175, 157);
-  padding: 20px;
-  margin: 30px;
-  border-radius: 50px;
-}
-section {
-  margin-bottom: 20px;
-}
-ul {
-  margin-left: 20px;
-}
+  /********************* CV *************************/
+  .cv {
+    background-color: rgb(157, 175, 157);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 50px;
+  }
+  section {
+    margin-bottom: 20px;
+  }
+  ul {
+    margin-left: 20px;
+  }
 
-ul li {
-  margin-bottom: 8px;
-}
-.info ul li {
-  font-size: 18px;
-}
+  ul li {
+    margin-bottom: 8px;
+  }
+  .info ul li {
+    font-size: 18px;
+  }
 
-.info {
-  background-color: #e0e4da;
-  padding: 10px;
-  border-radius: 5px;
-}
-.uddannelse ul li {
-  font-size: 18px;
-}
+  .info {
+    background-color: #e0e4da;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .uddannelse ul li {
+    font-size: 18px;
+  }
 
-.uddannelse {
-  background-color: #e0e4da;
-  padding: 10px;
-  border-radius: 5px;
-}
-.erfaring ul li {
-  font-size: 18px;
-}
+  .uddannelse {
+    background-color: #e0e4da;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .erfaring ul li {
+    font-size: 18px;
+  }
 
-.erfaring {
-  background-color: #e0e4da;
-  padding: 10px;
-  border-radius: 5px;
-}
+  .erfaring {
+    background-color: #e0e4da;
+    padding: 10px;
+    border-radius: 5px;
+  }
 
-.færdigheder ul li {
-  font-size: 18px;
+  .færdigheder ul li {
+    font-size: 18px;
+  }
+  .færdigheder {
+    background-color: #e0e4da;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  ul li {
+    padding-left: 5px;
+  }
 }
-.færdigheder {
-  background-color: #e0e4da;
-  padding: 10px;
-  border-radius: 5px;
-}
-ul li {
-  padding-left: 5px;
-}
-/*********** CV SLUT ************/
+/************CV SLUT**************/
