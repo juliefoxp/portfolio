@@ -175,6 +175,12 @@ a {
     margin-top: -380px; /*Rykker bottons op*/
     margin-left: 100px;
   }
+  .button_2 a {
+    padding: 30px; /*Padding i boksen, så teksten bliver centreret*/
+  }
+  .button_1 a {
+    padding: 10px;
+  }
   .tekst_forside {
     transform: translateX(-250px); /*Skubber teksten til side */
   }
